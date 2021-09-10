@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('../partials/style'); %>
+    <title>Document</title>
+</head>
+<body>
+    <div id = "inner-div">
+        <h1>Beatles stupid facts</h1>
+        <% beatles.forEach(b => { %>
+            <h4><%= b.name %> was born in <%= b.year_of_birth %>. One of his famous songs is <%= b.famous_song %>. <%= b.living ? " He's still alive" : "Now he's dead" %>.</h4>
+        <% }) %>
+    </div>
+</body>
+</html>
