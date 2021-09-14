@@ -1,12 +1,12 @@
 USE exercise_6;
 
--- CREATE TABLE Beatles(
---     id INT NULL AUTO_INCREMENT PRIMARY KEY,
---     name VARCHAR(20),
---     year_of_birth INT,
---     living BOOLEAN,
---     famous_song VARCHAR(50)
--- )
+CREATE TABLE Beatles(
+    id INT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(20),
+    year_of_birth INT,
+    living BOOLEAN,
+    famous_song VARCHAR(50)
+)
 
 -- INSERT INTO Beatles()
 -- VALUES(null, "John", 1940, 0, "Imagine"),
